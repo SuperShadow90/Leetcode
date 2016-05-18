@@ -6,7 +6,7 @@ class Solution(object):
             if digit not in d:
                 d[digit] = 1
             else:
-            d[digit] += 1
+                d[digit] += 1
         for digit in guess:
             if d[digit] > 0:
                 b += 1
